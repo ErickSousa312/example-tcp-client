@@ -1,7 +1,7 @@
-const StartClientUDP = require('./clientTCP');
+const StartClientTCP = require('./clientTCP');
 class Loaders {
   start (){
-    StartClientUDP();
+    StartClientTCP();
   }
 }
 module.exports = new Loaders (); 
